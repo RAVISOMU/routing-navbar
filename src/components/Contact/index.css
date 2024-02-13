@@ -1,0 +1,28 @@
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  height: 64px;
+  width: 64px;
+}
+
+.contact-text {
+  font-family: 'Roboto';
+  font-size: 36px;
+  color: #551e53;
+}
+
+@media screen and (min-width: 768px) {
+  .contact {
+    height: 100px;
+    width: 100px;
+  }
+
+  .contact-text {
+    font-size: 48px;
+  }
+}
